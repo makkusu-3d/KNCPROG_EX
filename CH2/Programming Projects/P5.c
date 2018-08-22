@@ -8,7 +8,6 @@ float x;
 
 int main(void)
 {
-
     printf("Enter a value for x: ");
     scanf("%f", &x);
 
