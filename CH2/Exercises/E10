@@ -1,0 +1,7 @@
+/* In the dweight.c program, which spaces are essential?
+ *
+ * The directives must have their own line. The deceleration must have
+ * a space between itself and the function or the variable name. The return 
+ * must have a space between itself and the zero. Removing spaces from the
+ * string literal would effect the console output. 
+ */
