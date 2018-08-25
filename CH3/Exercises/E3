@@ -1,0 +1,25 @@
+/* For each of the following pairs of scanf format strings,
+ * indicate whether or not the two strings are equivalent.
+ * If they're not, show how they can be distinguished
+ */
+
+//  (a) "%d" versus " %d"
+//  This is equivalent since scanf will skip the
+//  required white-space
+
+//  (b) "%d-%d-%d" versus "%d -%d -%d"
+//  This is not equivalent since scanf will search for a
+//  - immediately after the %d and if not found will end
+//  the scanf for "%d-%d-%d". Where for "%d -%d -%d"
+//  after the %d there is a white-space which allows the
+//  string to contain a  indefinite amount of white-space
+//  between the integer and the "-"
+
+//  (c) "%f" versus "%f "
+//  This is equivalent since scanf will skip the
+//  required white-space
+
+//  (d) "%f,%f" versus "%f, %f"
+//  This is equivalent since scanf will skip the 
+//  required white-space after the comma to the next
+//  float
