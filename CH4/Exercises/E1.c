@@ -22,6 +22,11 @@ int main(void)
     i = 7; j = 8; k = 9;
     printf("%d\n", (i + 10) % k / j);
     // Output: 1
+    
+    // (d)
+    i = 1; j = 2; k = 3;
+    printf("%d", (i + 5) % (j + 2) / k);
+    // Output: 0
 
     return 0;
 }
