@@ -1,0 +1,16 @@
+/* What is the value of each of the following expressions in C99? */
+
+// The C99 Standard states that if either operand is negative
+// the result of a division is rounded down toward zero.
+
+// (a) 8 / 5
+//  1 (Truncates the result)
+
+// (b) -8 / 5
+// -1 
+
+// (c) 8 / -5
+//  -1 
+
+// (d) -8 / -5
+//  1 
