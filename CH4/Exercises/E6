@@ -1,0 +1,23 @@
+/* What is the value of each of the following expressions in C99?*/
+
+// The goal is to ensure the value of (a / b) * b + a % b = a
+// remembering that a / b is subject to implementation
+// C99 Truncates the result of division toward zero
+
+// For reference calculations see E5
+
+// (a) 8 % 5
+// (C89)  value: 3
+// (C99)  value: 3
+
+// (b) -8 % 5
+// (C89) value: 2 or -3
+// (C99) value: -3
+
+// (c) 8 % -5
+// (C89) value: -2 or 3
+// (C99) value: 3
+
+// (d) -8 % -5
+// (C89) value: -2 or 3
+// (C99) value: -3
