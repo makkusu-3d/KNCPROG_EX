@@ -1,0 +1,20 @@
+/* What is the value of each of the following expressions in C89?
+ * (Give all possible values if an expression may have more
+ * than one value.)
+ */
+
+// The C89 Standard states that if either operand is negative
+// the result of a division can be rounded either up or down
+// It dependent on implementation
+
+// (a) 8 / 5
+//  1 (Truncates the result)
+
+// (b) -8 / 5
+// -1 or -2
+
+// (c) 8 / -5
+//  -1 or -2
+
+// (d) -8 / -5
+//  1 or 2
