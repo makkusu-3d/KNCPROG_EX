@@ -36,13 +36,7 @@ int main(void)
 
     // Answer:
     
-    // This technique doesn't work due to the difference in
-    // the order of operations for both expressions
-    // You cant bring the 1 over to the 9 from the first algorithm
-    // and have equivalent expressions due to the associative
-    // property with the modulus being the second operation
-    // It may work for some total values but for a majority it
-    // wont
+    // Seems like a trick question they output the same numbers
 
     printf("Method 2 - Check digit: %d", 10 - (total % 10));
 
