@@ -8,7 +8,7 @@ int i,j,k;
 
 int main(void)
 {
-    printf("Enter a two-digit number: ");
+    printf("Enter a three-digit number: ");
     scanf("%d", &i);
 
     // Using the method described by the hint
