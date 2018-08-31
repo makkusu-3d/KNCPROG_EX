@@ -46,6 +46,7 @@ int main(void)
     }
 
     // if/else statement 3 - Choosing the final minimum
+    // Could use this instead: f_min = min_i < min_i2 ? min_i : min_i2;
     if(min_i < min_i2){
         f_min = min_i;
     }
@@ -54,6 +55,7 @@ int main(void)
     }
 
     // if/else statement 4 - Choosing the final maximum
+    // Could use this instead: f_max = max_i < max_i2 ? max_i2 : max_i;
     if(max_i < max_i2){
         f_max = max_i2;
     }
