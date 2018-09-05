@@ -10,6 +10,6 @@ int main(void)
         i *= 2;
     }
     // Printed output:
-    // 1248163264128
+    // 1 2 4 8 16 32 64 128
 }
 
