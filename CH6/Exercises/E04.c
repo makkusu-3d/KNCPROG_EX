@@ -23,7 +23,8 @@ int main(void)
 
     // i increments before the print function for (c) where
     // the increment for (a) and (b) happens after the print
-    // function
+    // function therefore (a) and (b) are equivalent and (c)
+    // is not
 
     return 0;
 
