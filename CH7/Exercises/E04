@@ -1,0 +1,23 @@
+/** If c is a variable of type char, which one of the
+ *  following statements is illegal?
+ *
+ *  (a) i += c; // i has type int //
+ *      This is a legal statement. c becomes type int and is added
+ *      to i which is a integer
+ *
+ *  (b) c = 2 * c - 1;
+ *      This is a legal statement. The c in the expression
+ *      has the type changed from char to int.
+ *      The expression (int type) is evaluated and assigned
+ *      as a char type to c. There is a point where there will
+ *      be  an overflow is when the c in the expression has a value
+ *      larger than 63 this will cause overflow with c since its
+ *      maximum value is 127 and give a random value.
+ *
+ *  (c) putchar(c);
+ *      This is a legal statement with the argument of char type
+ *
+ *  (d) printf(c);
+ *      This is a illegal statement. printf only interprets strings where
+ *      c is a character type is interpreted as a constant.
+ */
