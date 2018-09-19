@@ -1,0 +1,8 @@
+/** Which of the following are not legal types in C?
+ *
+ * (a) short unsigned int
+ * (b) short float          ---> Not Legal
+ * (c) long double
+ * (d) unsigned long
+ *
+ */
