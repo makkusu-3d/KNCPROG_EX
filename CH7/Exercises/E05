@@ -1,0 +1,19 @@
+/** Which one of the following is not a legal way to write
+ *  the number 65? (Assume that the character set is ASCII.)
+ *
+ *  (a) 'A'
+ *      Legal: From the ASCII table A has a constant of 65
+ *
+ *  (b) 0b1000001
+ *      Not Legal: Generally for C, Compiles with GCC
+ *      0b --> Binary Number
+ *      (2^6 * 1) + (2^0 * 1) = 65
+ *
+ *  (c) 0101
+ *      Legal: 0 --> Octal Number
+ *      (8^2 * 1) + (8^0 * 1) = 65
+ *
+ *  (d) 0x41
+ *      Legal: 0x --> Hexadecimal Number
+ *      (16^1 * 4) + (16^0 * 1) = 65
+ */
