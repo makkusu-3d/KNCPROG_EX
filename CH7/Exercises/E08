@@ -1,0 +1,16 @@
+/** Repeat Exercise 7, but give the equivalent hexadecimal 
+ *  escape
+ *
+ * \b
+ *  hexadecimal escape --> 0x8
+ *
+ * \n
+ *  hexadecimal escape --> 0xA
+ *
+ * \r
+ *  hexadecimal escape --> 0xD
+ *
+ * \t
+ *  hexadecimal escape --> 0x9
+ *
+ */     
