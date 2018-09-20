@@ -1,0 +1,12 @@
+/** Suppose that i is a variable of type int, j is a
+ *  variable of type long, and k is a variable of type
+ *  unsigned int. What is the type of the expression
+ *  i + (int) j * k?
+ *
+ *  The type for this expression is unsigned int. This
+ *  is because j is cast from type long to int. k is of
+ *  unsigned int which causes j to be changed to type
+ *  unsigned int since it is a operand of multiplication
+ *  with operand j. This is now added to i which promotes
+ *  i to unsigned int.
+ */
