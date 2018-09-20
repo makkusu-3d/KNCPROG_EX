@@ -1,0 +1,10 @@
+/** Suppose that i is a variable of type int, f is a
+ *  variable of type float, and d is a variable of
+ *  type double. What is the type of the expression
+ *  i * f / d
+ *
+ *  The type for this expression is double. i type int
+ *  changes to a float since it is a operand multiplied
+ *  by the operand of f which is a float. But since d is
+ *  type double, i and f are changed to type double as well.
+ */   
