@@ -1,0 +1,18 @@
+/** For each of the following character escapes, give the
+ *  equivalent octal escape. (Assume that the character
+ *  set is ASCII.) You may wish to consult Appendix E,
+ *  which list the numerical codes for ASCII characters.
+ *
+ * (a) \b
+ *     Octal escape --> 010
+ *
+ * (b) \n
+ *     Octal escape --> 012
+ *
+ * (c) \r
+ *     Octal escape --> 015
+ *
+ * (d) \t
+ *     Octal escape --> 011
+ *
+ */
