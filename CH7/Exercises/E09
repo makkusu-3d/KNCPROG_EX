@@ -1,0 +1,8 @@
+/** Suppose that i and j are variables of type int. What
+ *  is the type of the expression i/j + 'a'
+ *
+ *  Due to integral promotion the type for this expression
+ *  is int since 'a' gets promoted to int type from char and
+ *  i and j are int types. 
+ *
+ */
