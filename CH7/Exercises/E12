@@ -1,0 +1,13 @@
+/** Suppose that i is a variable of type int, f is a
+ *  variable of type float, and d is a variable of type
+ *  double. Explain what conversions take place during
+ *  the execution of the following statement:
+ *  d = i + f;
+ *
+ *  First i type int becomes a float due to it being
+ *  a operand in a addition operation with the operand
+ *  of f which is a float. This expression then becomes
+ *  a double type since it is assigned to an identifier
+ *  of d which is of type double.
+ *
+ */
