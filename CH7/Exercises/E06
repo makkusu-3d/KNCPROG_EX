@@ -1,0 +1,21 @@
+/** For each of the following items of data, specify which
+ *  one of the types char, short, int, or long is the smallest
+ *  one guaranteed to be large enough to store the item.
+ *
+ * (a) Days in a month
+ *     value --> 31 --> char type
+ *   
+ * (b) Days in a year
+ *     value --> 365 --> short type
+ *
+ * (c) Minutes in a day
+ *     value --> 1440 --> short type
+ *
+ * (d) Seconds in a day
+ *     value --> 86400 --> 16 bit --> long int type
+ *                         32 bit --> int type
+ *                         64 bit --> int type
+ * 
+ *
+ */
+
