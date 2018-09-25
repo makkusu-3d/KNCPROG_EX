@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 // Declaration of weekend array
-bool weekend[7] = {[0] = 1, [6] = 1}; // 0 => False
+bool weekend[7] = {1,0,0,0,0,0,1}; // 0 => False
                                       // 1 => True
 int i;
 
