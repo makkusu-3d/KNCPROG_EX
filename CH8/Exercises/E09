@@ -5,7 +5,7 @@
  *
  */
 
-int temperature_readings [30][24];
+const int temperature_readings [30][24];
 int sum = 0, i, j, k = 0;
 float average;
 
