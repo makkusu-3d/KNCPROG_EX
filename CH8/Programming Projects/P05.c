@@ -23,8 +23,6 @@ int main(void)
     printf("Enter number of years: ");
     scanf("%d", &num_years);
 
-    printf(" %lf ", exp(log(1.06)/12));
-
     printf("\nYears");
     for (i = 0; i < NUM_RATES; i++) {
         printf("%6d%%", low_rate + i);
