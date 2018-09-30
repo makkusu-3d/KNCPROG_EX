@@ -30,8 +30,6 @@
  char character;
  int rand_num, i, j, k, m, ex;
 
-
-
  int main(void) {
 
      srand((unsigned) time(NULL));
@@ -54,6 +52,7 @@
         bool case_flag[4] = {0,0,0,0};
       
         ex = 1;
+      
         while (ex) {
             rand_num = rand() % 4;
             switch(rand_num) {
