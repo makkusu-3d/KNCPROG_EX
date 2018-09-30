@@ -54,7 +54,9 @@
         ex = 1;
       
         while (ex) {
+         
             rand_num = rand() % 4;
+         
             switch(rand_num) {
 
                 case 3: // j + 1
