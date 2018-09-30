@@ -51,19 +51,8 @@
 
      for (character = 'B'; character <= 'Z'; character++) {
 
-        // Shows the array at each step for debugging
-        /*
-         for (k = 0; k < N; k++) {
-            printf("\n");
-            for (m = 0; m < N; m++) {
-                printf("%c", array[k][m]);
-            }
-        }
-        */
-
         bool case_flag[4] = {0,0,0,0};
-
-        // printf("\n\n");
+      
         ex = 1;
         while (ex) {
             rand_num = rand() % 4;
@@ -72,48 +61,40 @@
                 case 3: // j + 1
 
                     if (array[i][j + 1] == '.' && j + 1 != 10) {
-                        // printf("| %c: j + 1 |\n", character); // Shows step taken in console
                         array[i][++j] = character;
                         ex = 0;
                     } else {
                         case_flag[3] = 1;
-                        // printf("\nCase flag 3: %d\n", case_flag[3]);
                     }
                     break;
 
                 case 2: // j - 1
 
                     if (array[i][j - 1] == '.' && j - 1 != -1){
-                        // printf("| %c: j - 1 |\n", character); // Shows step taken in console
                         array[i][--j] = character;
                         ex = 0;
                     } else {
                         case_flag[2] = 1;
-                        // printf("\nCase flag 2: %d\n", case_flag[2]);
                     }
                     break;
 
                 case 1: // i + 1
 
                     if (array[i + 1][j] == '.' && i + 1 != 10) {
-                        // printf("| %c: i + 1  |\n", character); // Shows step taken in console
                         array[++i][j] = character;
                         ex = 0;
                     } else {
                         case_flag[1] = 1;
-                        // printf("\nCase flag 1: %d\n", case_flag[1]);
                     }
                     break;
 
                 case 0: // i - 1
 
                     if (array[i - 1][j] == '.' && i - 1 != -1) {
-                        // printf("| %c: i - 1 |\n", character); // Shows step taken in console
                         array[--i][j] = character;
                         ex = 0;
                     } else {
                         case_flag[0] = 1;
-                        // printf("\nCase flag 0: %d\n", case_flag[0]);
                     }
                     break;
             }
