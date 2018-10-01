@@ -19,6 +19,7 @@
 int main(void)
 {
     char ph_num[N] = {};
+    
     char alpha[26] = {'A','B','C','D','E',
                       'F','G','H','I','J',
                       'K','L','M','N','O',
