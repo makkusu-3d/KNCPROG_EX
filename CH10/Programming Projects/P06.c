@@ -56,7 +56,6 @@ bool rpn_function(void);
 /* external variables */
 int contents[STACK_SIZE];
 int top = 0, pop1, pop2;
-char ch;
 
 int main(void)
 {
@@ -114,6 +113,7 @@ void stack_underflow(void)
 
 bool rpn_function(void)
 {
+    char ch; 
     printf("Enter an RPN expression: ");
     for(;;) {
         scanf(" %c", &ch);
