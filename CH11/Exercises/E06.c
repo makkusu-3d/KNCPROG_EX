@@ -57,7 +57,6 @@ void find_two_largest(int a[], int n, int *largest, int *second_largest)
 
 void collect_array(void)
 {
-    // Local Variables
     char ch;
     int i = 0;
     int *p = &n;
