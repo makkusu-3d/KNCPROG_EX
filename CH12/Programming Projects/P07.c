@@ -8,7 +8,7 @@
 
 #define N 10
 
-void max_min(int a[], int n, int *max, int *min);
+void max_min(int *arr, int n, int *max, int *min);
 
 int main(void)
 {
