@@ -23,7 +23,7 @@
 /**
  * Predicted Outcomes:
  *
- * (a) The return value is: -1
+ * (a) The return value is:  3
  * (b) The return value is:  0
  * (c) It returns the number of matching characters
  *     between the two passed strings.
