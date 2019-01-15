@@ -24,6 +24,7 @@
  #include <stdio.h>
 
  #define DOUBLE(x) 2*x
+ #define DOUBLE_V2(x) (2*(x))
 
  // External Variables
  int x;
@@ -33,8 +34,13 @@
  // Function Definitions
  int main(void)
  {
-    printf("Value %d", DOUBLE(1+2));
-    printf("\nValue %d", 4/DOUBLE(2));
+    printf("Value %d", DOUBLE(1+2));   // Output: 4
+    printf("\nValue %d", 4/DOUBLE(2)); // Output: 4
+
+    printf("\nValue %d", DOUBLE_V2(1+2));   // Output: 6
+    printf("\nValue %d", 4/DOUBLE_V2(2)); // Output: 1
 
     return 0;
  }
+
+
