@@ -38,12 +38,19 @@
   * int main(void)
   * {
   *   f();
+  *
+  *
+  *
   *   return 0;
   * }
   *
   * void f(void)
   * {
+  *
   *    printf("100 is %d\n", 100);
+  *
+  *
+  *
   * }
   *
   * (b) Output of this program
