@@ -1,0 +1,1 @@
+Having Problems with this code. write word function not passing the if statement. 
