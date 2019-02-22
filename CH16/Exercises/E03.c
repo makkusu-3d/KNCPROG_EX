@@ -29,3 +29,19 @@ struct complex make_complex(double real, double imaginary)
 
     return c;
 };
+
+/**
+ * (d) Write a function named add_complex that adds the corresponding
+ * members of its arguments(both complex structures), then returns
+ * the returns the result (another complex structure).
+ */
+
+struct complex add_complex(struct complex_a, struct complex_b)
+{
+    struct complex c;
+
+    c.real      = complex_a.real      + complex_b.real;
+    c.imaginary = complex_a.imaginary + complex_b.imaginary;
+
+    return c
+};
