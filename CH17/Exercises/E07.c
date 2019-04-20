@@ -14,5 +14,6 @@ while (p != NULL)
 // It will delete the first node by
 // using the free() function
 // therefore *p (struct) will not exist
+// p will be a dangling pointer.
 // and therefore a next member cannot
 // accessed
