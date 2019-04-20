@@ -88,23 +88,18 @@ struct node *input_for_list(struct node *list)
 }
 
 void delete_from_list(struct node **pptr, int n)
-{           //  int*   =  int*
+{      
     struct node *ptr = *pptr;
 
-    //      NULL pointer
     while (ptr)
     {
-        //  int
         if (ptr->value == n)
         {
-        //  int*  =  int*
             *pptr = ptr->next;
             free(ptr);
             break;
         }
-    //  int** = int**
         pptr = &ptr->next;
-    //  int*  = int*
         ptr = ptr->next;
     }
 }
