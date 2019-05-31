@@ -4,10 +4,10 @@
  *
  * (a) If x is of type int, it can be used as the value of a case
  *     label in a switch statement.
- *     ANS: True
+ *     ANS: False
  *
  * (b) The compiler will check that no assignment is made to x.
- *     ANS: False
+ *     ANS: True
  *
  * (c) x is subject to the same scope rules as variables.
  *     ANS: True
