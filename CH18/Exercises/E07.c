@@ -4,7 +4,7 @@
  *
  * (a) If x is of type int, it can be used as the value of a case
  *     label in a switch statement.
- *     ANS: False
+ *     ANS: False (Const qualifier is not a const expression)
  *
  * (b) The compiler will check that no assignment is made to x.
  *     ANS: True
