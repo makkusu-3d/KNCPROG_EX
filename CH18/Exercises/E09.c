@@ -1,24 +1,32 @@
 /**
- * Write a complete description of the type of x as specified
- * by each of the following declarations.
+ * Use a series of type definitions to simplify each of the
+ * declarations in Exercise 8.
  *
  * (a) char  (*x[10])(int);
- *     ANS:  An array of 10 pointers to functions with
- *           a argument of int that return a char type
+ *     ANS: typedef char Fcn(int);
+ *          typedef Fcn  *Fcn_ptr;
+ *          typedef Fcn_ptr Fcn_ptr_array[10];
+ *          Fcn_ptr_array x;
+ *
  *
  * (b) int   (*x(int))[5];
- *     ANS:  A function with a argument of int that
- *           return a pointer to an array of 5 integers
+ *     ANS: typedef int Fcn [5];
+ *          typedef Fcn *Fcn_ptr;
+ *          typedef Fcn_ptr Fcn_ptr_Fcn(int);
+ *          typedef Fcn_ptr_Fcn x
  *
  * (c) float (*(*x(void))(int);
- *     ANS:  A function with no argument that returns a
- *           pointer to pointer to a function with argument
- *           of int that returns float
+ *     ANS: typedef float Fcn(int);
+ *          typedef Fcn   *Fcn_ptr;
+ *          typedef Fcn_ptr *Fcn_2(void);
+ *          typedef Fcn_2 x;
  *
  * (d) void  (*x(int, void (*y)(int)))(int);
- *     ANS:  function with arguments of int and function
- *           of argument of int that returns void pointer
- *           that return pointer to function that as has
- *           argument of int and returns void
+ *     ANS: typedef void Fcn(int);
+ *          typedef Fcn *Fcn_Ptr;
+ *          typedef Fcn_Ptr Var (arg1 , arg2);
+ *          typedef arg1 int
+ *          typedef arg2 *arg2_Fcn(int);
+ *          typedef Var x;
+ *          typedef arg2_Fcn y;
  */
-
